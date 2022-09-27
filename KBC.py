@@ -18,11 +18,11 @@ count=0
 while i<len(question_list):
     print(question_list[i])
     j=0
-    # c=1
+    c=1
     while j<=len(options_list):
-        print(options_list[i][j])
+        print(c,options_list[i][j])
         j+=1
-        # c+=1
+        c+=1
     ans=["3 Seven","4 Eight","4 Delhi","3 Chennai","1 Software Engineering","2 Counseling"]
     print("you have 1 life line ","5️⃣","0️⃣","--","5️⃣","0️⃣")
     print("do you want life line")
